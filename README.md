@@ -20,22 +20,6 @@ Our team have never create a project like this before, so we are looking forward
  - Implement a function that read temperature and display it on Blynk
  - Implement a function that check the battery status and display in on Blynk 
  - Check the amout water that is in the container (extra sensor, watersensor)
-
-## Quality assurance
-The way that our team has decited to assure the quality of our product is by doing a form of TDD (Test-driven development). Wikipedia definds test-driven development as a "software development process that depends on the repetition of a very short development cycle: requirements are transformed into very specific test cases, then the software is improved so that the tests run"([Wikipedia, 2019](https://en.wikipedia.org/wiki/Test-driven_development)). 
-
-While developing our product, we focus on one task at the time and test if it works proparly before we move further on to impementing more functionalities. The reason why we use this method of quality assurance is because our team have previous experience with this way of workning. It is also an agile way of working. From previous courses, we have gains positive relations to working with Scrum which also is an agile process framwork. Based on frequently testing during the development process will hopefully lead to a product with solid quality.  
-
-
-## UN sustainable development goals (This topic is under development)
-Our project in relation with UN sustainable development goals. These are the sustainable development goals that we expect to have in mind while developing this project. 
-- 7 Afortable and clean energy
-- 9 Industry, innovation and infrastructure 
-- 11 Sustainable cities and communities 
-- 12 Responsible consumption and production
-- 15 Life on land
-- 17 Partnership for the goals 
-![All-SDGs](https://user-images.githubusercontent.com/35767860/68113261-ab8a8200-fef3-11e9-836e-1df7e036fd24.png)
  
 ## Result
 - Comming soon
@@ -61,38 +45,6 @@ This is some of the sources that we have looked at before we have started our pr
 
 In addition to this equipment, we are going to use our own laptops (pc and mac) as well as our phones (IOS - iPhones). 
 We also had a monitor, keyboard and mouse to work directly on the Pi.
-
-## General information 
-- This is a school project created by students 
-- The programming language that are used in this project is Python
-- We use the knowledge that we have gatherd through the our study program at IT and Informations Systems, Bachelor
-
-## First meeting with Blynk (Application)
-Through the study we are taking, IT and information systems, we have a subject called Internet Technologies. In this subject we have covered everything from IoT, AI, machine learning and more. In addition to this, we have this project that we are working on during our 5th semester at Universitetet i Agder, Kristiansand.
-
-One of the tasks we have done is to create an iRAT (Individual Readiness Assurance Test), tRAT (Team Readiness Assurance Test) and an ICA (In Class Activity) which is a form of Team-based learning. We chose to focus on IoT, and generated a test that later was used in class. The questions we created were based on the IoT and the syllabus we went through in class. 
-After we had gathered the results we saw that there were generally good results. This may indicate that we may made too simple questions, poorly formulated alternatives, or that the class is incredibly skilled within IoT (something we obviously believe).
-
-For our ICA (In Class Activity) we chose to give our class the following task: 
-- Connect the Raspberry Pi to a network
-- Build a circuit that uses an LED bulb
-- Set up Blink (App) and control the LED bulb over Wi-Fi
-
-This should basically be pretty straight forward, and it is not very complicated. We thought this might be too easy, but we had limited time on our ICA. If someone had finished quickly, we made an extra assignment:
-- Imagine that the LED bulb poses a fire hazard. Set up a sensor that can measure temperature and alert Blynk in case of temperature increase
-
-Most of the groups managed the first part of the task, but had too little time to start on task two. Our group that was responsible for creating the ICA chose to do the same project with the other students. This was a success and we managed to create the first part of the project. We got started on part two of the task, but had some trouble connecting the temperature sensor to the Raspberry Pi we used.
-
-Souces that we used to do the first part of our ICA:
-- [Blynk help](http://help.blynk.cc/en/articles/583104-how-to-install-node-js-library-on-linux)
-- [Blynk YouTube video](https://www.youtube.com/watch?v=LJ3ic8C8CcA)
-
-One problem that occured during the process of creating this project where that we had problems with installing Node.js NPM package. 
-After some research, we found that there have been several who have come across the same problem. This led us to help.
-- [Problems with installing Node.js NPM package](https://raspberrypi.stackexchange.com/questions/27333/problems-with-installing-node-js-npm-package)
-
-After some Googling and reading, we finally managed to get it to work. 
-This was our first meeting with the application Blynk and we see this as a good experience that we will take with us in the development of our self-watering system.
 
 ## Instructions 
 
