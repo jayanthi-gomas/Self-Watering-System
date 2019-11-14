@@ -47,7 +47,7 @@ In addition to this equipment, we are going to use our own laptops (pc and mac) 
 We also had a monitor, keyboard and mouse to work directly on the Pi.
 
 ## DIY project guide
-Create this project yourself with the help of you guide that can be found in our Wiki-pages. As well as through this link: [DIY](https://github.com/nokaas/Self-Watering-System/wiki/DIY-(Do-it-yourself-guide))
+Create this project yourself with the help of you guide that can be found in our Wiki-pages. As well as through this link: [DIY (Do it yourself)](https://github.com/nokaas/Self-Watering-System/wiki/DIY-(Do-it-yourself-guide))
 
 
 # Attempts
