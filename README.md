@@ -49,7 +49,9 @@ We also had a monitor, keyboard and mouse to work directly on the Pi.
 ## DIY project guide
 Create this project yourself with the help of you guide that can be found in our Wiki-pages. As well as through this link: [DIY (Do it yourself)](https://github.com/nokaas/Self-Watering-System/wiki/DIY-(Do-it-yourself-guide))
 
-## Picture that illustrates the project
+## Pictures that illustrates the project
+![73349276_556064008268810_6843775801989529600_n](https://user-images.githubusercontent.com/35767860/67786434-258fb680-fa6f-11e9-8bdd-03c0d6d4b553.jpg)
+## Connection map
 ![Attempt22](https://user-images.githubusercontent.com/35767860/67791761-4f011000-fa78-11e9-8109-9c9f839a6f58.jpg)
 
 ## Attempts 
