@@ -1,4 +1,4 @@
-### Current project status: Under development
+### Current project status: Almost completed
 
 # Self Watering System (Raspberry Pi)
 In this project we have planned to create a self watering system. The reason we want to create this is to find a solution on how we can go on vacation, and come home to plants that are still alive because of regular watering.
@@ -49,83 +49,14 @@ We also had a monitor, keyboard and mouse to work directly on the Pi.
 ## DIY project guide
 Create this project yourself with the help of you guide that can be found in our Wiki-pages. As well as through this link: [DIY (Do it yourself)](https://github.com/nokaas/Self-Watering-System/wiki/DIY-(Do-it-yourself-guide))
 
-
-# Attempts
-## Attempt 1:
-Building the circuit is the first thing we did to connect sensor to the Raspberry Pi. Since we bought the sensor without doing enough research, we found out that we needed an ADC (Analog-Digital Converter). This meant that we had to create a circuit that was able to receive the signals we received from the sensor and translate it so the Pi understood the information it received. With the help of the internet we came across a useful explanation of how we could solve this problem. The source is linked below. 
-
-- [Measuring soil moisture with raspberry pi](https://tutorials-raspberrypi.com/measuring-soil-moisture-with-raspberry-pi/)
-
-After spending some time connecting everything, we were quite happy with the result. Here are some pictures of how it all look at this point. 
-
-### Everything hooked up and runs as it should
-![1](https://user-images.githubusercontent.com/35767860/66339658-df4da880-e943-11e9-9e9f-60511cfd9bb2.jpg)
-
-### The soil moisture sensor has power and collects data
-The rope around the cables is mostly for the look, but works as cable management
-![2](https://user-images.githubusercontent.com/35767860/66339813-33588d00-e944-11e9-8ee8-c550af5abdad.jpg)
-
-### Overview of how we connected the wires to the Rasperry's GPIO pins
-We also used electric tape for cable management
-![3](https://user-images.githubusercontent.com/35767860/66339837-3fdce580-e944-11e9-8510-849f2a4e23ab.jpg)
-
-### The connections that we used to connect the ADC to the sensor and raspberry pi
-We had too few jumber cables so we had to be creative and make more of the ones we already had.
-![4](https://user-images.githubusercontent.com/35767860/66339854-4a977a80-e944-11e9-957f-acd7c3a49f7d.jpg)
-
-### This is how we connected everything
-Collected from Raspberry Pi Tutorials. Link bellow the picture.
-![Koblingsforklaring (Pi)](https://user-images.githubusercontent.com/35767860/66340818-52f0b500-e946-11e9-8501-14c8385cb66b.png)
-- [Raspberry Pi Tutorials](https://tutorials-raspberrypi.com/measuring-soil-moisture-with-raspberry-pi/)
-
-### Conclusion for attempt 1 
-- We managed to get some data from the soil moisture sensor. The values that we were introduced to was repeatedly: 35, 255, 550, 860. The highest values was collected when we tested the sensor in water. 35 & 255 is the values that we got when the sensor was dry and not in any soil. 
-- A problem that occured is that we did not get a reliable frequence of measurements. The values varied from 35 to 255 without doing anything with the sensor (not in any soil or water).
-- Anoter problem that occured is that the source code that we used did not always run as it should.
-- We have tried to update Raspbian, as well as every source that we use. Some of the cabeling that we used was not that good and we tried some other cables. This did not work as well as we thought.
-
-## Attempt 2
-To start of this attempt, we chose to reinstall the raspbian operating system to start off with a clean Raspberry Pi. 
-After a period of time we finally got the new parts to continue with testing and attempt to create the a good solution for our project.
-We have now got a new soil moisture sensor that we beliveve is going to make our project much easier to implement in addition to some other parts as well. The team decided to do even more reaseach on how to create this project. So we looked up on the following links:
-- [Build a Smart, Automated IoT Plant Irrigation System with Raspberry Pi and PubNub](https://www.pubnub.com/blog/smart-automated-iot-plant-irrigation-system-raspberry-pi-pubnub/)
-- [Soil Moisture Sensor](https://www.piddlerintheroot.com/soil-moisture-sensor/)
-
-## Introduction to our new parts
-
-### New soil moisture sensor
-We had some problems with the other sensor that we tried out, so we ordered this one. We have seen other simular projects that are using this sensor which was a good step, hopefully,  in the right direction. 
-![73262276_2456809481309334_1278103038027890688_n](https://user-images.githubusercontent.com/35767860/67786444-2aed0100-fa6f-11e9-9705-84fa6e3f0b60.jpg)
-[Buy here](https://www.ebay.co.uk/itm/302930866767)
-
-### Relay
-A relay is used to control a circuit by an independent low-power signal. By using a relay we can turn on and off a switch that have more power than directry from the Raspberry Pi - without hurting the Pi it self.
-![75450112_721594501666644_5189100094556733440_n](https://user-images.githubusercontent.com/35767860/67786439-27f21080-fa6f-11e9-861a-7867165858c8.jpg)
-[Buy here](https://www.ebay.co.uk/itm/4-Channel-5V-Relay-Module-for-Arduino-TTL-Logik-G2U5-EL/223146727140?epid=1481516985&_trkparms=ispr%3D1&hash=item33f494d6e4:g:VbwAAOSwqmdbnRGt&enc=AQAEAAACQBPxNw%2BVj6nta7CKEs3N0qXk1uYxqGBo%2BoER1o2752CPU6%2BCp2Wz4gkT%2B1d11B8ELcwFyGtt7%2Fmc75DN8rDqh%2F9cxWPNDKRIPU%2B4YcVnwI1M9WrTiYypY8LXHI9BuVfcHjKxag%2BvJuYA19KxMRHtKpaTDqoYxyl26kYY1wGXtRly1KxBrCG3wgQgzNOCJ4BXWHL1YAXusGJGh5S%2FAzF8SPPwjz%2BDMSOqNHo3EhzCWJeL5ACYpcIVt7zovpYZdJ6TfLtSAajgOzheV2nIyhf9P1Of5ba6EjXl13vpyccN7PEKuBUvP0lOnTPfDIiGJD4xVV8te8cSlCEyL0QcmGnJm6%2BER%2BDqWknJ6y%2F1AQZS8WmaQY0unpve0M1GTcdN%2B%2BBBPGF6JbF2QcQe6o0m5fMQ4IGD5J5f6vLRAwHctII8EfK9srP0XqePtp%2B3kQgUQDBg0SFLD7fnYST3tDH0%2BIR0FMIwl9PFKFZ6juStMfZQIoSbzYnpji4i6d1EpdnKuAeWd7cOa3H3E8A5RRnAMYyn%2FaNaHHwxOpjpLHsdOaPIhL1hyKKuFSg952qp8vxE%2BoQjKaFfdKS4CyVAiFmpucGfwaq1S8ZLr%2FMSxXA9YHl2Zy3bAtUpY6Ac%2BCSV5I%2FBE2ciOxWt3u3fMBOL%2FY72FGvXEdd7Ttrg6RCv9laORTp%2FecamXX3Q3pVWaspZp6FEAZddSMLZxn0F9K4WyBM4fwIxo6G9lqHLRCCgwdDJucvwNDbc%2FucoFO%2F0jL33TgA%2B8OLlWA%3D%3D&checksum=223146727140033b4e9c8dbc4f3eb9b33540bff49a47&enc=AQAEAAACQBPxNw%2BVj6nta7CKEs3N0qXk1uYxqGBo%2BoER1o2752CPU6%2BCp2Wz4gkT%2B1d11B8ELcwFyGtt7%2Fmc75DN8rDqh%2F9cxWPNDKRIPU%2B4YcVnwI1M9WrTiYypY8LXHI9BuVfcHjKxag%2BvJuYA19KxMRHtKpaTDqoYxyl26kYY1wGXtRly1KxBrCG3wgQgzNOCJ4BXWHL1YAXusGJGh5S%2FAzF8SPPwjz%2BDMSOqNHo3EhzCWJeL5ACYpcIVt7zovpYZdJ6TfLtSAajgOzheV2nIyhf9P1Of5ba6EjXl13vpyccN7PEKuBUvP0lOnTPfDIiGJD4xVV8te8cSlCEyL0QcmGnJm6%2BER%2BDqWknJ6y%2F1AQZS8WmaQY0unpve0M1GTcdN%2B%2BBBPGF6JbF2QcQe6o0m5fMQ4IGD5J5f6vLRAwHctII8EfK9srP0XqePtp%2B3kQgUQDBg0SFLD7fnYST3tDH0%2BIR0FMIwl9PFKFZ6juStMfZQIoSbzYnpji4i6d1EpdnKuAeWd7cOa3H3E8A5RRnAMYyn%2FaNaHHwxOpjpLHsdOaPIhL1hyKKuFSg952qp8vxE%2BoQjKaFfdKS4CyVAiFmpucGfwaq1S8ZLr%2FMSxXA9YHl2Zy3bAtUpY6Ac%2BCSV5I%2FBE2ciOxWt3u3fMBOL%2FY72FGvXEdd7Ttrg6RCv9laORTp%2FecamXX3Q3pVWaspZp6FEAZddSMLZxn0F9K4WyBM4fwIxo6G9lqHLRCCgwdDJucvwNDbc%2FucoFO%2F0jL33TgA%2B8OLlWA%3D%3D&checksum=223146727140033b4e9c8dbc4f3eb9b33540bff49a47)
-
-### Water pump
-The pump that we are using is a sbmersible pump that works very well. Here is a picture of how it looks.
-![76702307_499330190651998_7707215458578989056_n](https://user-images.githubusercontent.com/35767860/67786427-2294c600-fa6f-11e9-8961-7ae303157a3c.jpg)
-[Buy here](https://www.ebay.co.uk/itm/DC-3V-5V-Micro-Submersible-Pump-Water-Mute-Pump-Low-Noise-DIY-Fish-Tank-Aquarium/283657475848?hash=item420b4d9708:g:zi0AAOSw5r9drV5l)
-
-### AA-Battery holder
-To deliver more power to the water pump we had to get an additional power source. This is the one we got.
-![75271420_399871984300678_8619613030763724800_n](https://user-images.githubusercontent.com/35767860/67786421-1f013f00-fa6f-11e9-88d7-df6d1cff349a.jpg)
-[Buy here](https://www.ebay.com/itm/2-x-AA-3V-Battery-Holder-Connector-Storage-Case-Box-ON-OFF-Switch-With-Lead-Wire/112855488640?hash=item1a46b61880:g:6GIAAOSw01dZnWnZ)
-
-### Building the circuit
-Before we assembled all the parts togehter, we did test them individualy to know they worked. We did this by adding power to the motor and see that everything worked as it should. As in the first attempt, we chose to start with building the circuit. This time with the new parts. After connecting everything, we looked over everything to check that the connections were correct - before powering up the Pi. Here are a picture of how it looks at his point.
-
-![73349276_556064008268810_6843775801989529600_n](https://user-images.githubusercontent.com/35767860/67786434-258fb680-fa6f-11e9-8bdd-03c0d6d4b553.jpg)
-
-### This is how we connected everything at attempt number 2
+## Picture that illustrates the project
 ![Attempt22](https://user-images.githubusercontent.com/35767860/67791761-4f011000-fa78-11e9-8109-9c9f839a6f58.jpg)
 
+## Attempts 
+To develop this project, we had to give it two different attempts to get it all working. This is written more about in the Wiki-pages. Here are the links to our two attempts: 
+- [Attempt 1 (fail)](https://github.com/nokaas/Self-Watering-System/wiki/Attempt-1-(Fail))
+- [Attempt 2 (successful)](https://github.com/nokaas/Self-Watering-System/wiki/Attempt-2-(Successful))
 
-### Conclution for attempt 2 
-- This time we managed to get information from the sensor so that it controlled the water pump.
-- The cable management were much easier and it was quite fast to setup.
-- As a team, we see that this is a step closer to a more finished product.
 
 ### Programming Planty.py
 To get this project to work we had to do some programming. We did this by using the Python IDLE that comes with the Raspberry Pi. To start off this process, we did reasearch on how simular projects had been completed. The code that we generated is based on some of the projects that we found online, and the links for the inspiration are below: 
