@@ -33,7 +33,7 @@ How it works: If the moisture level is lower than X -> Open the water pump/run a
 - [Video 1, representation of the Self Watering System](https://www.youtube.com/watch?v=RnN0Dnwo7GA) 
 - [Video 2, representation of the Self Watering System with Blynk](https://www.youtube.com/watch?v=grOZAdXm5yY) 
 - We managed to reach almost every goal that were created in the beginning of the project. The first three goals: Goals of our project were all completed (see Video 1).
-- In the goals that were related to the Blynk application we managed to implement a function that let us monitor if the soil moisture was high or low (see Video 2).
+- In the goals that were related to the Blynk application we managed to implement a function that let us monitor if the soil moisture level was high or low (see Video 2).
 - In addition to this, the Blynk application made it possible to controll the water pump via Wi-Fi (see Video 2).
 - The value of being able to operate the water pump is that if there is anything wrong with the sensor, it is possible to water manualy. 
 
