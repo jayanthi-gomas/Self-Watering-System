@@ -1,13 +1,12 @@
-### Current project status: Almost completed
+### Current project status: Completed
 
 # Self Watering System (Raspberry Pi)
-In this project we have planned to create a self watering system. The reason we want to create this is to find a solution on how we can go on vacation, and come home to plants that are still alive because of regular watering.
+In this project we have created a self watering system. The reason we want to create this system is to find a solution on how we can go on vacation, and come home to plants that are still alive because of regular watering. This project is a school project related to The University of Agder and the course IS-308, Internet technologies. 
 
-The idea is to measure the moisture in the soil to find out if the plant need more water. Based on how moist the soil is, a valve will open that water for x number of seconds before turning off again.
+The product is now able to measure the moisture on the soil to find out if the plant need more water to stay alive. Based on how moist the soil is, a valve will open that water for x number of seconds before turning off again. 
 
-Thinking: If the moisture level is lower than X -> Open the water valve/run a water pump for X number of seconds.
+How it works: If the moisture level is lower than X -> Open the water valve/run a water pump for X number of seconds.
 
-Our team have never create a project like this before, so we are looking forward to continue on the project.
 
 ## Goals of our project
 - Setting up the raspberry and connect the soil moisture sensor 
