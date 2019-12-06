@@ -7,6 +7,15 @@ The product is now able to measure the moisture on the soil to find out if the p
 
 How it works: If the moisture level is lower than X -> Open the water valve/run a water pump for X number of seconds.
 
+## Developers
+[Aas, Knut Andreas](https://github.com/nokaas) 
+
+[Andreassen, Jarl](https://github.com/Genijarl)
+ 
+[Mathisen, Vegard Saavesen](https://github.com/vegardmathisen)
+  
+[Pedersen, Eivind](https://github.com/eivped)
+
 
 ## Goals of our project
 - Setting up the raspberry and connect the soil moisture sensor 
@@ -70,11 +79,4 @@ To get this project to work we had to do some programming. We did this by using 
 Our source code is created by testing and trying different things, in the spirit of the term "learning by doing". We think it worked quite well. Take a look at the source code here:
 - [Planty.py - source code](https://github.com/nokaas/Self-Watering-System/blob/master/src/soil%20moisture/Planty.py)
 
-## Developers
-[Aas, Knut Andreas](https://github.com/nokaas) 
 
-[Andreassen, Jarl](https://github.com/Genijarl)
- 
-[Mathisen, Vegard Saavesen](https://github.com/vegardmathisen)
-  
-[Pedersen, Eivind](https://github.com/eivped)
