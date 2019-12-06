@@ -22,8 +22,7 @@ Our team have never create a project like this before, so we are looking forward
  - Check the amout water that is in the container (extra sensor, watersensor)
  
 ## Result
-- Comming soon
-- To us as developers: Create a video that shows how the system works  
+- [Video representation of the Self Watering System](https://www.youtube.com/watch?v=RnN0Dnwo7GA) 
 
 ## Sources 
 This is some of the sources that we have looked at before we have started our project.
