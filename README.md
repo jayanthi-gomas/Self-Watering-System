@@ -55,7 +55,7 @@ This is some of the sources that we have looked at before we have started our pr
 - Blynk Application
 
 In addition to this equipment, we are going to use our own laptops (pc and mac) as well as our phones (IOS - iPhones). 
-We also had a monitor, keyboard and mouse to work directly on the Pi.
+We also have a monitor, keyboard and mouse to work directly on the Raspberry Pi.
 
 ## DIY project guide
 Create this project yourself with the help of you guide that can be found in our Wiki-pages. As well as through this link: [DIY (Do it yourself)](https://github.com/nokaas/Self-Watering-System/wiki/DIY-(Do-it-yourself-guide))
